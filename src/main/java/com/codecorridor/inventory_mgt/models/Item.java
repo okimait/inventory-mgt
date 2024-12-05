@@ -11,6 +11,9 @@ public class Item {
 
     public Item(){}
     public Item( String name, short quantity, boolean isAvailable){
+        setName(name);
+        setQuantity(quantity);
+        setAvailable(isAvailable);
 
     }
 

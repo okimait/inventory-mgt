@@ -14,7 +14,6 @@ public class Item {
         setName(name);
         setQuantity(quantity);
         setAvailable(isAvailable);
-
     }
 
     public String getName() {
